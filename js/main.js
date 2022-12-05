@@ -45,17 +45,13 @@ function renderModal() {
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
                   <h2>${proj.name}</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis
-                    dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate,
-                    maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <h4 class="h4 m-5">${proj.desc}</h4>
                   <ul class="list-inline">
                     <li>Date: January 2017</li>
                     <li>Client: Threads</li>
                     <li>Category: Illustration</li>
                   </ul>
-                  <a href="https://mayanfeldbaum.github.io/${proj.id}/" class="btn btn-info" role="button" target="_blank">Check it out!</a>
+                  <a href="https://mayanfeldbaum.github.io/${proj.id}/" class="btn btn-primary btn-info" role="button" target="_blank">Check it out!</a>
                   <button class="btn btn-primary btn-projectLink" data-dismiss="modal" type="button">
                       <i class="fa fa-times"></i>
                       Close Project</button>
