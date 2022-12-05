@@ -1,11 +1,11 @@
 
 $(document).ready(init)
 
-
 function init() {
   renderProjs()
   renderModal()
 }
+$('.btn-contact').click(contactMe)
 
 function renderProjs() {
     const projs = getProjs()
@@ -70,5 +70,15 @@ function renderModal() {
   $('.modals').html(strHTMLs)
 }
 
+function contactMe(){
+  const elEmail = document.querySelector('input[id="inputEmail"]')
+  const email = elEmail.value
+  const elSubject = document.querySelector('input[id="inputSubject"]')
+  const subject = elSubject.value
+  const elMsg = document.querySelector('input[id="inputMessage"]')
+  const msg = elMsg.value+ email
 
-
+  const queryStringParams= `to=mayan.lemberg@gmail.com&su=${subject}&body=${msg}&bcc=someone.else@example.com`
+  const newUrl= 'https:mail.google.com/mail/?view=cm&' +queryStringParams
+  window.open(newUrl)
+}

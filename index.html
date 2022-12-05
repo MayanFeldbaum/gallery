@@ -17,7 +17,8 @@
   <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet'
+    type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
   <!-- Custom styles for this template -->
@@ -31,21 +32,37 @@
   </div>
   <aside class="offcanvas-aside">
 
-  <!-- Contact -->
-  <section id="contact">
-    <h4>Contact Me</h4>
-  </section>
-    
+    <!-- Contact -->
+    <section id="contact">
+      <h4>Contact Me</h4>
+      <form class="row">
+        <div class="col-md-12 mt-5">
+          <label for="inputEmail" class="form-label">Your Email</label>
+          <input type="email" class="form-control" id="inputEmail" placeholder="name@example.com">
+        </div>
+        <div class="col-md-12 mt-5">
+          <label for="inputSubject" class="form-label">Subject</label>
+          <input type="text" class="form-control" id="inputSubject" placeholder="Type subject here">
+        </div>
+        <div class="col-12 mt-5">
+          <label for="inputMessage" class="form-label">Message</label>
+          <input type="text" class="form-control" id="inputMessage" placeholder="Type message text here">
+        </div>
+        <button type="button" class="btn btn-primary btn-contact">Submit</button>
+      </form>
+    </section>
+
   </aside>
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">Meet Me</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="fa fa-bars"></i>
-        </button>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <i class="fa fa-bars"></i>
+      </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
@@ -88,29 +105,32 @@
       <div class="row text-center">
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
-            </span>
+            <i class="fa fa-circle fa-stack-2x text-primary"></i>
+            <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+          </span>
           <h4 class="service-heading">E-Commerce</h4>
-          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex
+          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto
+            quo inventore harum ex
             magni, dicta impedit.</p>
         </div>
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
-            </span>
+            <i class="fa fa-circle fa-stack-2x text-primary"></i>
+            <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+          </span>
           <h4 class="service-heading">Responsive Design</h4>
-          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex
+          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto
+            quo inventore harum ex
             magni, dicta impedit.</p>
         </div>
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
-            </span>
+            <i class="fa fa-circle fa-stack-2x text-primary"></i>
+            <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
+          </span>
           <h4 class="service-heading">Web Security</h4>
-          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex
+          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto
+            quo inventore harum ex
             magni, dicta impedit.</p>
         </div>
       </div>
@@ -148,37 +168,35 @@
 
   <!-- Me -->
   <section class="bg-light" id="me" style="padding: 0px;">
-      <div class="row">
-        <div class="col-sm-4">
-          <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/profilePicture.png" alt="">
-            <h4>Mayan Feldbaum</h4>
-            <p class="text-muted">ca student</p>
-            <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
-                <a href="https://twitter.com/?lang=en" target="_blank">
-                    <i class="fa fa-twitter"></i>
-                  </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://facebook.com/?lang=en" target="_blank">
-                    <i class="fa fa-facebook"></i>
-                  </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://il.linkedin.com/" target="_blank">
-                    <i class="fa fa-linkedin"></i>
-                  </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-sm-8 flex-align-center">
-            <p class="large text-muted  about-description">I am a hardworking, honest individual. I am a good timekeeper, always
-              willing to learn new skills. I am capable of working both independently
-              and on a team.</p>    
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="team-member">
+          <img class="mx-auto rounded-circle" src="img/team/profilePicture.png" alt="">
+          <h4>Mayan Feldbaum</h4>
+          <p class="text-muted">ca student</p>
+          <ul class="list-inline social-buttons">
+            <li class="list-inline-item">
+              <a href="https://twitter.com/?lang=en" target="_blank">
+                <i class="fa fa-twitter"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://facebook.com/?lang=en" target="_blank">
+                <i class="fa fa-facebook"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://il.linkedin.com/" target="_blank">
+                <i class="fa fa-linkedin"></i>
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
+      <div class="col-sm-8 flex-align-center">
+        <p class="large text-muted  about-description">Hi! I'm Mayan.</p>
+      </div>
+    </div>
   </section>
 
 
@@ -195,23 +213,23 @@
           <ul class="list-inline social-buttons flex-align-center">
             <li class="list-inline-item">
               <a href="#">
-                  <i class="fa fa-twitter"></i>
-                </a>
+                <i class="fa fa-twitter"></i>
+              </a>
             </li>
             <li class="list-inline-item flex-align-center">
               <a href="#">
-                  <i class="fa fa-facebook"></i>
-                </a>
+                <i class="fa fa-facebook"></i>
+              </a>
             </li>
             <li class="list-inline-item">
               <a href="#">
-                  <i class="fa fa-linkedin"></i>
-                </a>
+                <i class="fa fa-linkedin"></i>
+              </a>
             </li>
           </ul>
         </div>
         <div class="col-md-4 flex-align-center">
-            <ul class="list-inline quicklinks">
+          <ul class="list-inline quicklinks">
             <li class="list-inline-item">
               <a href="#">More Me</a>
             </li>
@@ -228,33 +246,36 @@
 
   <!-- Modal 1 -->
   <div class="modals">
-  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
           </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h2>Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis
-                  dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate,
-                  maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Threads</li>
-                  <li>Category: Illustration</li>
-                </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2>Project Name</h2>
+                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
+                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Est blanditiis
+                    dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita
+                    beatae cupiditate,
+                    maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <ul class="list-inline">
+                    <li>Date: January 2017</li>
+                    <li>Client: Threads</li>
+                    <li>Category: Illustration</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fa fa-times"></i>
                     Close Project</button>
+                </div>
               </div>
             </div>
           </div>
@@ -262,7 +283,6 @@
       </div>
     </div>
   </div>
-</div>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
